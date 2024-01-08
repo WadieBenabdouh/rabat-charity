@@ -58,3 +58,29 @@ main{
     }
     
 }
+
+aside{
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+
+    h4{
+        text-decoration: underline 1px dashed #fff;
+        text-underline-offset: 10px;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+
+        img{
+            max-width: 100%;
+            border-radius: 10px;
+            border: solid #1e1f1d 2px;
+        }
+    }
+}
