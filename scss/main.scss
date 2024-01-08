@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;700&display=swap');
+
+*, ::before, ::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    padding: 1em 2em;
+    background: url('/assets/images/blob-scene-haikei-colored.svg') no-repeat;
+    background-size: cover;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    img{
+        max-width: 5em;
+    }
+
+    h1{
+        color: #e4d7d7;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+
+main{
+    padding-top: 2em;
+
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+
+        h4{
+            // font-size: 1rem;
+            color: #fdfdfd;
+            text-align: center;
+            line-height: 2.5em;
+            border-left: 5px dotted #fc8f02;
+            padding: 10px;
+        }
+
+        img{
+            max-width: 100%;
+            border-radius: 20px;
+        }
+    }
+    
+}
