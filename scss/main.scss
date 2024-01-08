@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;700&display=swap');
 
-*, ::before, ::after{
-    margin:0;
-    padding:0;
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     padding: 1em 2em;
     background: url('/assets/images/blob-scene-haikei-colored.svg') no-repeat;
     background-size: cover;
@@ -14,34 +16,34 @@ body{
     min-height: 100vh;
 }
 
-header{
+header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1em;
 
-    img{
+    img {
         max-width: 5em;
     }
 
-    h1{
+    h1 {
         color: #e4d7d7;
         text-align: center;
         font-size: 1.2rem;
     }
 }
 
-main{
+main {
     padding-top: 2em;
 
-    .about-us{
+    .about-us {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2em;
 
-        h4{
+        h4 {
             // font-size: 1rem;
             color: #fdfdfd;
             text-align: center;
@@ -50,15 +52,15 @@ main{
             padding: 10px;
         }
 
-        img{
+        img {
             max-width: 100%;
             border-radius: 20px;
         }
     }
-    
+
 }
 
-aside{
+aside {
     padding-top: 3em;
     display: flex;
     justify-content: center;
@@ -66,17 +68,17 @@ aside{
     flex-direction: column;
     gap: 2em;
 
-    h4{
+    h4 {
         text-decoration: underline 1px dashed #fff;
         text-underline-offset: 10px;
     }
 
-    .gallery{
+    .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1em;
 
-        img{
+        img {
             max-width: 100%;
             border-radius: 10px;
             border: solid #1e1f1d 2px;
@@ -84,7 +86,7 @@ aside{
     }
 }
 
-.bulletpoints{
+.bulletpoints {
     background: url('/assets/images/bullet-points-overlay.svg') no-repeat;
     background-size: cover;
     display: flex;
@@ -94,19 +96,25 @@ aside{
     margin-top: 2em;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
-    
-    
-    ul{
+
+
+    ul {
         display: flex;
         flex-direction: column;
         padding-left: 5em;
 
-        li{
+        li {
             padding: 10px 0;
 
-            p{
+            p {
                 color: #fff;
             }
         }
     }
+}
+
+.our-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
