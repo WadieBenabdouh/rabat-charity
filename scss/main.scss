@@ -10,7 +10,7 @@
 
 body {
     padding: 1em 2em;
-    background: url('/assets/images/blob-scene-haikei-colored.svg') no-repeat;
+    background: url('/assets/images/blob-scene-haikei-lastchoice.svg') no-repeat;
     background-size: cover;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     min-height: 100vh;
@@ -28,7 +28,7 @@ header {
     }
 
     h1 {
-        color: #e4d7d7;
+        color: #131212;
         text-align: center;
         font-size: 1.2rem;
     }
@@ -45,10 +45,10 @@ main {
 
         h4 {
             font-size: 0.8rem;
-            color: #fdfdfd;
+            color: #061102;
             text-align: center;
             line-height: 2.5em;
-            border-left: 5px dotted #fc8f02;
+            border-left: 5px dotted #cec9c9;
             padding: 10px;
         }
 
@@ -75,7 +75,7 @@ aside {
     h4 {
         text-decoration: underline 1px dashed #0b0430;
         text-underline-offset: 10px;
-        color: #fc8f02;
+        color: #d4c5b0;
     }
 
     .gallery {
